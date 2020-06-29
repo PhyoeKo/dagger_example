@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
+
         SmartPhoneComponent smartPhoneComponent = DaggerSmartPhoneComponent.create();
         smartPhone = smartPhoneComponent.getSmartPhone();
 
